@@ -168,7 +168,7 @@ func (app *CortezaApp) InitServices(ctx context.Context) (err error) {
 	// will most likely be merged in the future
 	err = sysService.Initialize(ctx, app.Log, app.Store, sysService.Config{
 		ActionLog: app.Opt.ActionLog,
-		Storage:   app.Opt.Storage,
+		Storage:   app.Opt.ObjStore,
 	})
 
 	if err != nil {
@@ -181,7 +181,7 @@ func (app *CortezaApp) InitServices(ctx context.Context) (err error) {
 	// will most likely be merged in the future
 	err = cmpService.Initialize(ctx, app.Log, app.Store, cmpService.Config{
 		ActionLog: app.Opt.ActionLog,
-		Storage:   app.Opt.Storage,
+		Storage:   app.Opt.ObjStore,
 	})
 
 	if err != nil {
@@ -194,7 +194,7 @@ func (app *CortezaApp) InitServices(ctx context.Context) (err error) {
 	// will most likely be merged in the future
 	err = msgService.Initialize(ctx, app.Log, app.Store, msgService.Config{
 		ActionLog: app.Opt.ActionLog,
-		Storage:   app.Opt.Storage,
+		Storage:   app.Opt.ObjStore,
 	})
 
 	if err != nil {
