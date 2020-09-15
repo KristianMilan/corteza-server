@@ -2,7 +2,6 @@ package tests
 
 import (
 	"context"
-	"github.com/cortezaproject/corteza-server/pkg/id"
 	"github.com/cortezaproject/corteza-server/pkg/rand"
 	"github.com/cortezaproject/corteza-server/store"
 	// "github.com/cortezaproject/corteza-server/pkg/rh"

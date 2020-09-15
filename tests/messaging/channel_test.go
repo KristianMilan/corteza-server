@@ -4,7 +4,6 @@ import (
 	"context"
 	"github.com/cortezaproject/corteza-server/messaging/service"
 	"github.com/cortezaproject/corteza-server/messaging/types"
-	"github.com/cortezaproject/corteza-server/pkg/id"
 	"github.com/cortezaproject/corteza-server/store"
 	sysTypes "github.com/cortezaproject/corteza-server/system/types"
 	"time"

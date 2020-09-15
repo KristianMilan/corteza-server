@@ -3,7 +3,6 @@ package messaging
 import (
 	"fmt"
 	"github.com/cortezaproject/corteza-server/messaging/types"
-	"github.com/cortezaproject/corteza-server/pkg/id"
 	sysType "github.com/cortezaproject/corteza-server/system/types"
 	"github.com/cortezaproject/corteza-server/tests/helpers"
 	"net/http"
